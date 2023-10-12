@@ -9,7 +9,7 @@ library("janitor") # Examining and cleaning dirty data
 
 
 ## Step 1: Collect the Data
-
+# I collected the whole year data sets
 df_trip1 <- read_csv("C:/Users/DEPED/Documents/Coursera Data Analytics Notes/Course 8 Google Data Analytics Capstone Case Study/Case Study Datasets/Bike-share Case Study/202201-divvy-tripdata.csv")
 df_trip2 <- read_csv("C:/Users/DEPED/Documents/Coursera Data Analytics Notes/Course 8 Google Data Analytics Capstone Case Study/Case Study Datasets/Bike-share Case Study/202202-divvy-tripdata.csv")
 df_trip3 <- read_csv("C:/Users/DEPED/Documents/Coursera Data Analytics Notes/Course 8 Google Data Analytics Capstone Case Study/Case Study Datasets/Bike-share Case Study/202203-divvy-tripdata.csv")
