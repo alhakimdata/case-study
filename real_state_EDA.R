@@ -146,5 +146,6 @@ median_price_df <- df_clean %>%
   group_by(state) %>% 
   summarise(median_price = median(price))
 
+# Save the data analysis result by turning into a csv files for future visualization using Tableau
 write_csv(avg_price_df, "C:/Users/Documents/RStudio/Csv Data Analysis Results/avg_price_realstate.csv")
 write_csv(median_price_df, "C:/Users/Documents/RStudio/Csv Data Analysis Results/median_price_realstate.csv")
