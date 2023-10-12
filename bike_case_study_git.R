@@ -187,4 +187,4 @@ alltrips_2 %>%
   ggplot(aes(x = weekday, y = avg_duration, fill = member_casual)) +
   geom_col(position = "dodge")
 
-# Check my Rpub account for the output of my data analysis case study
+# Check my Rpub account for the output of my exploratory data analysis case study
